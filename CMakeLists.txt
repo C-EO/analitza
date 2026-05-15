@@ -26,7 +26,7 @@ include(CheckLibraryExists) #FindCurses seems to need that on the CI
 include(ECMPoQmTools)
 include(ECMQmlModule)
 include(ECMDeprecationSettings)
-find_package(Qt6 ${QT_REQUIRED_VERSION} REQUIRED NO_MODULE COMPONENTS
+find_package(Qt6 ${QT_MIN_VERSION} REQUIRED NO_MODULE COMPONENTS
     Widgets
     Xml
     Svg
