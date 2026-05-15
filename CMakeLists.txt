@@ -67,7 +67,6 @@ configure_package_config_file(
   "${CMAKE_CURRENT_SOURCE_DIR}/Analitza6Config.cmake.in"
   "${CMAKE_CURRENT_BINARY_DIR}/Analitza6Config.cmake"
   INSTALL_DESTINATION  ${CMAKECONFIG_INSTALL_DIR}
-  PATH_VARS  KDE_INSTALL_INCLUDEDIR CMAKE_INSTALL_PREFIX
 )
 
 CONFIGURE_FILE(${CMAKE_CURRENT_SOURCE_DIR}/config-analitza.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-analitza.h)
