@@ -20,7 +20,7 @@
 #define OPERATIONS_H
 
 #include "operator.h"
-#include <expressiontype.h>
+#include "expressiontype.h"
 
 namespace Analitza
 {
